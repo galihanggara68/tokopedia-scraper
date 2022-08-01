@@ -1,0 +1,16 @@
+{
+    "alamat": {
+        "type": "clickable",
+        "elem": "#ChooseAddressWidget",
+        "effect": {
+            "type": "iterable",
+            "elem": "div[role=dialog] section",
+            "map": {
+                "nama": "h5 span",
+                "penerima": "h4 span",
+                "hp": "div p:nth-child(3)",
+                "alamat": "div p:nth-child(4)"
+            }
+        }
+    }
+}
