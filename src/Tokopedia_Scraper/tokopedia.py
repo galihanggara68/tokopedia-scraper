@@ -1,6 +1,6 @@
 import json
 
-class LinkedInScraper:
+class TokopediaScraper:
     def __init__(self, driver, finder, cookie_path):
         self.driver = driver
         self.finder = finder
